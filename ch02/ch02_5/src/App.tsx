@@ -7,6 +7,7 @@ import StopPropagation from './pages/StopPropagation'
 import VariousInputs from './pages/VariousInputs'
 import OnChange from './pages/Onchange'
 import FileInput from './pages/FileInput'
+
 import DragDrop from './pages/DragDrop'
 import FileDrop from './pages/FileDrop'
 
