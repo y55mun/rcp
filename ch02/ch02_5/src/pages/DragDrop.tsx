@@ -11,4 +11,16 @@ export default function DragDrop() {
     e.preventDefault()
     console.log('onDrop', e.dataTransfer)
   }
+
+  return (
+    <div>
+      <p>DragDrop</p>
+      <div draggable onDragStart={onDragStart} onDragEnter={onDragEnd}>
+        <h1>Drag Me</h1>
+      </div>
+      <div onDrop={onDrop} onDragOver={onDragOver}>
+        <h1>Drop over Me</h1>
+      </div>
+    </div>
+  )
 }
