@@ -1,9 +1,15 @@
-import type {FC} from 'react'
+import type {FC, CSSProperties} from 'react'
 
 export type IconProps = {
   name: string
+  style?: CSSProperties
 }
 
-export const Icon: FC<IconProps> = ({name}) => {
-  return <span className="material-icons"> {name} </span>
+export const Icon: FC<IconProps> = ({name, style}) => {
+  return (
+    <span className="material-icons" style={style}>
+      {' '}
+      {name}{' '}
+    </span>
+  )
 }
