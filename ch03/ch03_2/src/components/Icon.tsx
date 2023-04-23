@@ -1,4 +1,4 @@
-import type {FC, DetailedHTMLProps, HTMLAttributes} from '../components'
+import type {FC, DetailedHTMLProps, HTMLAttributes} from 'react'
 
 type ReactSpanProps = DetailedHTMLProps<HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>
 
