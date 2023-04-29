@@ -50,7 +50,7 @@ export const Summary = (FC<SummaryProps> = ({
   return <p {...props} className={className} />
 })
 
-export type ParagrapchProps = SummaryProps & {}
+export type ParagraphProps = SummaryProps & {}
 export const Paragraph: FC<ParagraphProps> = ({
   className: _className,
   numberOfLines,
