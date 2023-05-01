@@ -11,7 +11,7 @@ import AvatarTest from './pages/AvatarTest'
 import PositionTest from './pages/PositionTest'
 import OverlayTest from './pages/OverlayTest'
 
-export default funcion App() {
+export default function App() {
   return (
     <main>
       <OverlayTest />
