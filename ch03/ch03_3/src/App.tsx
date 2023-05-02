@@ -1,4 +1,4 @@
-import DivTest from './page/DivTest'
+import DivTest from './pages/DivTest'
 import ViewportTest from './pages/ViewportTest'
 import HeightTest from './pages/HeightTest'
 import PaddingTest from './pages/PaddingTest'
