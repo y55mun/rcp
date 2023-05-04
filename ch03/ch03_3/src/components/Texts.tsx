@@ -37,7 +37,7 @@ export const Subtitle: FC<SubtitleProps> = ({
 }
 
 export type SummaryProps = SubtitleProps & {}
-export const Summary = (FC<SummaryProps> = ({
+export const Summary: FC<SummaryProps> = ({
   className: _className,
   numberOfLines,
   ...props
@@ -48,7 +48,7 @@ export const Summary = (FC<SummaryProps> = ({
     numberOfLines
   )
   return <p {...props} className={className} />
-})
+}
 
 export type ParagraphProps = SummaryProps & {}
 export const Paragraph: FC<ParagraphProps> = ({
