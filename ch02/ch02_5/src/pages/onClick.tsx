@@ -6,11 +6,10 @@ if (rootDiv) {
   }
   rootDiv.onclick = (e: Event) => {
     const {isTrusted, target, bubbles} = e
-    //prettier-ignore
+    // prettier-ignore
     console.log('mouse click also occurs on rootDiv', isTrusted, target, bubbles)
   }
 }
-
 export default function OnClick() {
   return <div>OnClick</div>
 }

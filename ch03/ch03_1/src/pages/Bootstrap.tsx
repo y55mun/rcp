@@ -1,8 +1,8 @@
-export default function CopyMe() {
+export default function Bootstrap() {
   return (
     <form>
       <div className="mb-3">
-        <label htmlFor="exampleInputEmail" className="form-label">
+        <label htmlFor="exampleInputEmail1" className="form-label">
           Email address
         </label>
         <input
@@ -19,10 +19,7 @@ export default function CopyMe() {
         <label htmlFor="exampleInputPassword1" className="form-label">
           Password
         </label>
-        <input
-          type="password"
-          className="form-control"
-          id="exampleInputPassword1"></input>
+        <input type="password" className="form-control" id="exampleInputPassword1" />
       </div>
       <div className="mb-3 form-check">
         <input type="checkbox" className="form-check-input" id="exampleCheck1" />

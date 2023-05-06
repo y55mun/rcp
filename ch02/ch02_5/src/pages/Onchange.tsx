@@ -17,9 +17,10 @@ export default function OnChange() {
   // prettier-ignore
   return (
     <div>
+      <p>OnChange</p>
       <input type="text" onChange={onChangeValue}
-        placeholder="type som text" defaultValue="Hello"/>
-      <input type="checkbox" onChange={onChangeChecked} defaultChecked />
+        placeholder="type some text" defaultValue="Hello"/>
+      <input type="checkbox" onChange={onChangeChecked} defaultChecked/>
       <input type="file" onChange={onChangeFiles} multiple accept="images/*" />
     </div>
   )

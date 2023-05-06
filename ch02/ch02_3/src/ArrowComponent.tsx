@@ -4,7 +4,6 @@ export type ArrowComponentProps = {
   href: string
   text: string
 }
-
 const ArrowComponent: FC<ArrowComponentProps> = props => {
   const {href, text} = props
   return (

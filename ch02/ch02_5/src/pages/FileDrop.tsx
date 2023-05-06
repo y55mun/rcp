@@ -4,11 +4,11 @@ export default function FileDrop() {
   const onDragOver = (e: DragEvent) => e.preventDefault()
 
   const onDrop = (e: DragEvent) => {
-    e.preventDefault() // 새 창에 드롭한 이미지가 나타나는 것 방지
+    e.preventDefault() // 웹 브라우저의 새로운 창에 드롭한 이미지가 나타나는 것을 방지
     const files = e.dataTransfer.files
     if (files) {
       for (let i = 0; i < files.length; i++) {
-        const file: File | null = files.item(i)
+        const file: File | null = files.item(i) //혹은 file = files[i];
         console.log(`file[${i}]: `, file)
       }
     }

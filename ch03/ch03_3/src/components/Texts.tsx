@@ -5,6 +5,7 @@ type TextProps = DetailedHTMLProps<
   HTMLAttributes<HTMLParagraphElement>,
   HTMLParagraphElement
 >
+
 export type TitleProps = TextProps & {
   numberOfLines?: number
 }
@@ -18,7 +19,6 @@ export const Title: FC<TitleProps> = ({
     _className,
     numberOfLines
   )
-
   return <p {...props} className={className} />
 }
 
