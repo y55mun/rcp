@@ -12,6 +12,7 @@ export type DivProps = ReactDivProps &
     src?: string
   }
 
+// prettier-ignore
 export const Div: FC<DivProps> = ({
   width,
   height,
