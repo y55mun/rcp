@@ -5,3 +5,17 @@ import JustifyCenterTest from './pages/JustifyCenterTest'
 import AlignTest from './pages/AlignTest'
 import UserContainer from './pages/UserContainer'
 import CardContainer from './pages/CardContainer'
+
+export default function App() {
+  return (
+    <main>
+      <CardContainer />
+      <UserContainer />
+      <AlignTest />
+      <JustifyCenterTest />
+      <MinMaxTest />
+      <WrapTest />
+      <DirectionTest />
+    </main>
+  )
+}
